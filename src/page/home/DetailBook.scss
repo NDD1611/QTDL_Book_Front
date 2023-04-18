@@ -1,0 +1,37 @@
+.main_detail {
+    padding: 20px 250px;
+    display: flex;
+
+    .left {
+        flex: 3;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .right {
+        flex: 7;
+        padding: 20px;
+
+        div {
+            padding: 10px 0;
+        }
+
+        .btn_borrow {
+            background-color: #f5ba1a;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        .back_home {
+            margin-left: 100px;
+        }
+    }
+}
+
+.moTa {
+    margin: 20px 250px;
+    border-top: 1px solid #ccc;
+}

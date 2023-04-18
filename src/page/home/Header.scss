@@ -1,0 +1,89 @@
+#Header {
+    .bottom {
+        padding: 10px 150px;
+        display: flex;
+        gap: 20px;
+
+        .display_none {
+            display: none !important;
+        }
+
+        .logo {
+            flex: 2
+        }
+
+        .search {
+            flex: 6;
+            position: relative;
+            padding-top: 10px;
+            display: flex;
+
+            .input_search {
+                width: 100%;
+                margin: 0 !important;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+
+            .btn_search {
+                right: 5px;
+                top: 10px;
+                bottom: 10px;
+                padding: 0 20px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border: none;
+                background-color: #C92127;
+
+                i {
+                    color: #fff;
+                }
+            }
+        }
+
+        .account {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+
+            &:hover .drop_down {
+                display: block;
+            }
+
+            .drop_down {
+                cursor: pointer;
+                display: none;
+                position: absolute;
+                top: 100%;
+                width: 200px;
+                background-color: #fff;
+                box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
+
+                div {
+                    border-radius: 10px;
+                    margin: 10px;
+                    padding: 5px 20px;
+                    font-weight: 700px;
+                }
+
+                .login {
+                    background-color: #C92127;
+                    color: #fff;
+                }
+
+                .logout {
+                    border: 1px solid #C92127;
+                    color: #C92127;
+                }
+            }
+        }
+
+        .welcome {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

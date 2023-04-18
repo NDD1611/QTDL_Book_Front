@@ -1,0 +1,42 @@
+#main {
+    padding: 20px 150px;
+    display: flex;
+    gap: 10px;
+    background-color: #F0F0F0;
+
+    .bg_yellow {
+        background-color: #f5ba1a;
+    }
+
+    .left {
+        flex: 2;
+        padding: 10px;
+        background-color: #fff;
+
+        .type_book {
+            // background-color: #f5ba1a;
+            padding: 7px;
+            border-radius: 10px;
+            margin: 3px 0;
+            position: relative;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            .quantity_book {
+                position: absolute;
+                right: 10px;
+            }
+        }
+    }
+
+    .right {
+        border-left: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        background-color: #fff;
+        flex: 8;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

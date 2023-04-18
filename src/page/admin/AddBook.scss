@@ -1,0 +1,41 @@
+#add_book {
+    padding: 0 300px;
+    margin-top: 20px;
+
+    .add {
+        border: none;
+        border-radius: 5px;
+        background-color: #f5ba1a;
+        margin-top: 10px;
+        padding: 10px 25px;
+    }
+
+    .mota {
+        display: block;
+    }
+
+    textarea {
+        width: 500px;
+        height: 200px;
+    }
+
+    .width-50 {
+        width: 50%;
+
+        label {
+            display: inline-block;
+            padding-right: 10px;
+            width: 25%;
+        }
+    }
+
+    input {
+        width: 60%;
+    }
+
+    .row {
+        margin: 20px 0;
+        display: flex;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+#header {
+    padding: 0 100px;
+    background-color: #f5ba1a;
+    display: flex;
+    gap: 20px;
+
+    .link {
+        padding: 10px 20px;
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: #000;
+        }
+    }
+}

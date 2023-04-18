@@ -1,0 +1,13 @@
+#displayImage {
+    display: flex;
+    flex-wrap: wrap;
+
+    .image {
+        width: 19vw;
+        border: 1px solid #ccc;
+
+        img {
+            width: 100%;
+        }
+    }
+}
